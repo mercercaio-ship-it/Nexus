@@ -1,0 +1,856 @@
+[
+  {
+    "id": "nexus-smoke-001",
+    "category": "nexus",
+    "agent": "nexus",
+    "message": "Tell me a short joke about cats.",
+    "expected": {
+      "agentSlug": "nexus",
+      "agentName": "Nexus",
+      "requiredHeaderIncludes": ["Nexus"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "nexus-smoke-002",
+    "category": "nexus",
+    "agent": "nexus",
+    "message": "What is the capital of Mongolia and roughly how many people live there?",
+    "expected": {
+      "agentSlug": "nexus",
+      "agentName": "Nexus",
+      "requiredHeaderIncludes": ["Nexus"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "nexus-smoke-003",
+    "category": "nexus",
+    "agent": "nexus",
+    "message": "What do you think about the philosophy of stoicism in modern life?",
+    "expected": {
+      "agentSlug": "nexus",
+      "agentName": "Nexus",
+      "requiredHeaderIncludes": ["Nexus"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "nexus-smoke-004",
+    "category": "nexus",
+    "agent": "nexus",
+    "message": "Quick hello — can you introduce yourself in two sentences?",
+    "expected": {
+      "agentSlug": "nexus",
+      "agentName": "Nexus",
+      "requiredHeaderIncludes": ["Nexus"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "nexus-smoke-005",
+    "category": "nexus",
+    "agent": "nexus",
+    "message": "What time zone is Tokyo in?",
+    "expected": {
+      "agentSlug": "nexus",
+      "agentName": "Nexus",
+      "requiredHeaderIncludes": ["Nexus"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+
+  {
+    "id": "lumi-smoke-001",
+    "category": "specialist",
+    "agent": "graphics-design",
+    "message": "Sketch a brand identity direction for a calm meditation app.",
+    "expected": {
+      "agentSlug": "graphics-design",
+      "agentName": "Lumi",
+      "requiredHeaderIncludes": ["Lumi", "Graphics & Design"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "lumi-smoke-002",
+    "category": "specialist",
+    "agent": "graphics-design",
+    "message": "I need a logo concept for a vegan bakery — friendly, hand-drawn feel.",
+    "expected": {
+      "agentSlug": "graphics-design",
+      "agentName": "Lumi",
+      "requiredHeaderIncludes": ["Lumi", "Graphics & Design"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "lumi-smoke-003",
+    "category": "specialist",
+    "agent": "graphics-design",
+    "message": "Suggest a color palette and typography pairing for a sustainable fashion brand.",
+    "expected": {
+      "agentSlug": "graphics-design",
+      "agentName": "Lumi",
+      "requiredHeaderIncludes": ["Lumi", "Graphics & Design"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "lumi-smoke-004",
+    "category": "specialist",
+    "agent": "graphics-design",
+    "message": "Lay out a one-page poster layout for a community jazz festival.",
+    "expected": {
+      "agentSlug": "graphics-design",
+      "agentName": "Lumi",
+      "requiredHeaderIncludes": ["Lumi", "Graphics & Design"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "lumi-smoke-005",
+    "category": "specialist",
+    "agent": "graphics-design",
+    "message": "Build an illustration style guide for a children's book series.",
+    "expected": {
+      "agentSlug": "graphics-design",
+      "agentName": "Lumi",
+      "requiredHeaderIncludes": ["Lumi", "Graphics & Design"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+
+  {
+    "id": "bit-smoke-001",
+    "category": "specialist",
+    "agent": "programming-tech",
+    "message": "Refactor my Express API into a cleaner DevOps-friendly framework. The current code is messy.",
+    "expected": {
+      "agentSlug": "programming-tech",
+      "agentName": "Bit",
+      "requiredHeaderIncludes": ["Bit", "Programming & Tech"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "bit-smoke-002",
+    "category": "specialist",
+    "agent": "programming-tech",
+    "message": "There is a memory leak bug in my Node library; help me debug and deploy a fix.",
+    "expected": {
+      "agentSlug": "programming-tech",
+      "agentName": "Bit",
+      "requiredHeaderIncludes": ["Bit", "Programming & Tech"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "bit-smoke-003",
+    "category": "specialist",
+    "agent": "programming-tech",
+    "message": "What's the right stack and framework for a real-time chat backend?",
+    "expected": {
+      "agentSlug": "programming-tech",
+      "agentName": "Bit",
+      "requiredHeaderIncludes": ["Bit", "Programming & Tech"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "bit-smoke-004",
+    "category": "specialist",
+    "agent": "programming-tech",
+    "message": "Help me refactor a legacy library by extracting a clean public API.",
+    "expected": {
+      "agentSlug": "programming-tech",
+      "agentName": "Bit",
+      "requiredHeaderIncludes": ["Bit", "Programming & Tech"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "bit-smoke-005",
+    "category": "specialist",
+    "agent": "programming-tech",
+    "message": "Walk me through deploying a Node service to a serverless platform with a clean DevOps pipeline.",
+    "expected": {
+      "agentSlug": "programming-tech",
+      "agentName": "Bit",
+      "requiredHeaderIncludes": ["Bit", "Programming & Tech"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+
+  {
+    "id": "buzz-smoke-001",
+    "category": "specialist",
+    "agent": "digital-marketing",
+    "message": "Set up a Google Ads campaign with an SEO funnel for a B2B audience.",
+    "expected": {
+      "agentSlug": "digital-marketing",
+      "agentName": "Buzz",
+      "requiredHeaderIncludes": ["Buzz", "Digital Marketing"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "buzz-smoke-002",
+    "category": "specialist",
+    "agent": "digital-marketing",
+    "message": "Run an ads campaign for a B2B audience focused on conversion.",
+    "expected": {
+      "agentSlug": "digital-marketing",
+      "agentName": "Buzz",
+      "requiredHeaderIncludes": ["Buzz", "Digital Marketing"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "buzz-smoke-003",
+    "category": "specialist",
+    "agent": "digital-marketing",
+    "message": "Recommend an SEO positioning angle for a productivity SaaS launch.",
+    "expected": {
+      "agentSlug": "digital-marketing",
+      "agentName": "Buzz",
+      "requiredHeaderIncludes": ["Buzz", "Digital Marketing"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "buzz-smoke-004",
+    "category": "specialist",
+    "agent": "digital-marketing",
+    "message": "Build a growth funnel that converts trial users to paid plans.",
+    "expected": {
+      "agentSlug": "digital-marketing",
+      "agentName": "Buzz",
+      "requiredHeaderIncludes": ["Buzz", "Digital Marketing"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "buzz-smoke-005",
+    "category": "specialist",
+    "agent": "digital-marketing",
+    "message": "What's an audience targeting plan for an SEO and ads launch campaign?",
+    "expected": {
+      "agentSlug": "digital-marketing",
+      "agentName": "Buzz",
+      "requiredHeaderIncludes": ["Buzz", "Digital Marketing"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+
+  {
+    "id": "reel-smoke-001",
+    "category": "specialist",
+    "agent": "video-animation",
+    "message": "Storyboard a 60-second explainer animation, with a shot list and motion graphics direction.",
+    "expected": {
+      "agentSlug": "video-animation",
+      "agentName": "Reel",
+      "requiredHeaderIncludes": ["Reel", "Video & Animation"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "reel-smoke-002",
+    "category": "specialist",
+    "agent": "video-animation",
+    "message": "Edit a product demo reel from my Premiere footage with motion graphics polish.",
+    "expected": {
+      "agentSlug": "video-animation",
+      "agentName": "Reel",
+      "requiredHeaderIncludes": ["Reel", "Video & Animation"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "reel-smoke-003",
+    "category": "specialist",
+    "agent": "video-animation",
+    "message": "Walk me through animating a clean logo reveal in after effects.",
+    "expected": {
+      "agentSlug": "video-animation",
+      "agentName": "Reel",
+      "requiredHeaderIncludes": ["Reel", "Video & Animation"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "reel-smoke-004",
+    "category": "specialist",
+    "agent": "video-animation",
+    "message": "Plan a shot list for a 30-second animation app intro using motion graphics.",
+    "expected": {
+      "agentSlug": "video-animation",
+      "agentName": "Reel",
+      "requiredHeaderIncludes": ["Reel", "Video & Animation"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "reel-smoke-005",
+    "category": "specialist",
+    "agent": "video-animation",
+    "message": "Build a storyboard for an explainer video about a meditation routine.",
+    "expected": {
+      "agentSlug": "video-animation",
+      "agentName": "Reel",
+      "requiredHeaderIncludes": ["Reel", "Video & Animation"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+
+  {
+    "id": "lex-smoke-001",
+    "category": "specialist",
+    "agent": "writing-translation",
+    "message": "Edit the prose and tone of this sentence to be clearer and warmer: \"Our platform helps teams finish tasks faster without making the process feel complicated.\"",
+    "expected": {
+      "agentSlug": "writing-translation",
+      "agentName": "Lex",
+      "requiredHeaderIncludes": ["Lex", "Writing & Translation"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"],
+      "note": "Phase 4.3-B reliability patch: prior prompt asked for a 1500-word essay and intermittently hit Claude CLI timeouts / fell back to mock on Windows. New prompt is a short deterministic edit-prose + tone exercise (both `edit prose` and `tone` are writing-translation keywords)."
+    }
+  },
+  {
+    "id": "lex-smoke-002",
+    "category": "specialist",
+    "agent": "writing-translation",
+    "message": "Translate this article into European Portuguese with localization for cultural nuance.",
+    "expected": {
+      "agentSlug": "writing-translation",
+      "agentName": "Lex",
+      "requiredHeaderIncludes": ["Lex", "Writing & Translation"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "lex-smoke-003",
+    "category": "specialist",
+    "agent": "writing-translation",
+    "message": "Edit prose in this blog post to tighten the tone without losing voice.",
+    "expected": {
+      "agentSlug": "writing-translation",
+      "agentName": "Lex",
+      "requiredHeaderIncludes": ["Lex", "Writing & Translation"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "lex-smoke-004",
+    "category": "specialist",
+    "agent": "writing-translation",
+    "message": "Help me write a personal essay about returning to running after an injury.",
+    "expected": {
+      "agentSlug": "writing-translation",
+      "agentName": "Lex",
+      "requiredHeaderIncludes": ["Lex", "Writing & Translation"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "lex-smoke-005",
+    "category": "specialist",
+    "agent": "writing-translation",
+    "message": "Ghostwrite a 600-word blog post about returning to running, in a reflective tone.",
+    "expected": {
+      "agentSlug": "writing-translation",
+      "agentName": "Lex",
+      "requiredHeaderIncludes": ["Lex", "Writing & Translation"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+
+  {
+    "id": "echo-smoke-001",
+    "category": "specialist",
+    "agent": "music-audio",
+    "message": "Compose a 30-second ambient instrumental score for a meditation podcast intro, including tempo and mix notes.",
+    "expected": {
+      "agentSlug": "music-audio",
+      "agentName": "Echo",
+      "requiredHeaderIncludes": ["Echo", "Music & Audio"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "echo-smoke-002",
+    "category": "specialist",
+    "agent": "music-audio",
+    "message": "Mix and master this voice-over track for a podcast episode.",
+    "expected": {
+      "agentSlug": "music-audio",
+      "agentName": "Echo",
+      "requiredHeaderIncludes": ["Echo", "Music & Audio"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "echo-smoke-003",
+    "category": "specialist",
+    "agent": "music-audio",
+    "message": "What tempo, instrumentation, and mix direction should I use for a reflective product demo soundtrack?",
+    "expected": {
+      "agentSlug": "music-audio",
+      "agentName": "Echo",
+      "requiredHeaderIncludes": ["Echo", "Music & Audio"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "echo-smoke-004",
+    "category": "specialist",
+    "agent": "music-audio",
+    "message": "Suggest an ambient instrumental score for a calm morning app intro.",
+    "expected": {
+      "agentSlug": "music-audio",
+      "agentName": "Echo",
+      "requiredHeaderIncludes": ["Echo", "Music & Audio"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "echo-smoke-005",
+    "category": "specialist",
+    "agent": "music-audio",
+    "message": "Mix and master a 90-second voice-over track for a wellness podcast.",
+    "expected": {
+      "agentSlug": "music-audio",
+      "agentName": "Echo",
+      "requiredHeaderIncludes": ["Echo", "Music & Audio"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+
+  {
+    "id": "vera-smoke-001",
+    "category": "specialist",
+    "agent": "business",
+    "message": "Help me set the pricing and OKRs for our seed-stage SaaS.",
+    "expected": {
+      "agentSlug": "business",
+      "agentName": "Vera",
+      "requiredHeaderIncludes": ["Vera", "Business"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "vera-smoke-002",
+    "category": "specialist",
+    "agent": "business",
+    "message": "Draft a fundraising narrative for our Series A pitch.",
+    "expected": {
+      "agentSlug": "business",
+      "agentName": "Vera",
+      "requiredHeaderIncludes": ["Vera", "Business"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "vera-smoke-003",
+    "category": "specialist",
+    "agent": "business",
+    "message": "Build a GTM strategy for entering the EU SMB market.",
+    "expected": {
+      "agentSlug": "business",
+      "agentName": "Vera",
+      "requiredHeaderIncludes": ["Vera", "Business"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "vera-smoke-004",
+    "category": "specialist",
+    "agent": "business",
+    "message": "Help me think through pricing for our B2B SaaS — flat-rate vs usage-based.",
+    "expected": {
+      "agentSlug": "business",
+      "agentName": "Vera",
+      "requiredHeaderIncludes": ["Vera", "Business"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "vera-smoke-005",
+    "category": "specialist",
+    "agent": "business",
+    "message": "Set our team's OKRs and pricing tiers for next quarter.",
+    "expected": {
+      "agentSlug": "business",
+      "agentName": "Vera",
+      "requiredHeaderIncludes": ["Vera", "Business"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+
+  {
+    "id": "cash-smoke-001",
+    "category": "specialist",
+    "agent": "finance",
+    "message": "Build a 3-year cash flow forecast with debt and tax scenarios.",
+    "expected": {
+      "agentSlug": "finance",
+      "agentName": "Cash",
+      "requiredHeaderIncludes": ["Cash", "Finance"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "cash-smoke-002",
+    "category": "specialist",
+    "agent": "finance",
+    "message": "What's a reasonable retirement investment mix at age 40 with moderate savings?",
+    "expected": {
+      "agentSlug": "finance",
+      "agentName": "Cash",
+      "requiredHeaderIncludes": ["Cash", "Finance"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "cash-smoke-003",
+    "category": "specialist",
+    "agent": "finance",
+    "message": "Help me set up a monthly budget with savings and debt payoff.",
+    "expected": {
+      "agentSlug": "finance",
+      "agentName": "Cash",
+      "requiredHeaderIncludes": ["Cash", "Finance"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "cash-smoke-004",
+    "category": "specialist",
+    "agent": "finance",
+    "message": "What's the tax-optimized way to handle a $50k bonus this year?",
+    "expected": {
+      "agentSlug": "finance",
+      "agentName": "Cash",
+      "requiredHeaderIncludes": ["Cash", "Finance"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "cash-smoke-005",
+    "category": "specialist",
+    "agent": "finance",
+    "message": "Walk me through a quick valuation for a SaaS pre-seed.",
+    "expected": {
+      "agentSlug": "finance",
+      "agentName": "Cash",
+      "requiredHeaderIncludes": ["Cash", "Finance"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+
+  {
+    "id": "sage-smoke-001",
+    "category": "specialist",
+    "agent": "ai-services",
+    "message": "RAG vs fine-tune for a 500-doc internal knowledge base — which and why?",
+    "expected": {
+      "agentSlug": "ai-services",
+      "agentName": "Sage",
+      "requiredHeaderIncludes": ["Sage", "AI Services"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "sage-smoke-002",
+    "category": "specialist",
+    "agent": "ai-services",
+    "message": "Build a RAG architecture for an internal policy knowledge base with embedding pipelines, reranking, and citation safeguards.",
+    "expected": {
+      "agentSlug": "ai-services",
+      "agentName": "Sage",
+      "requiredHeaderIncludes": ["Sage", "AI Services"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "sage-smoke-003",
+    "category": "specialist",
+    "agent": "ai-services",
+    "message": "Walk me through prompt engineering best practices for an LLM agent workflow.",
+    "expected": {
+      "agentSlug": "ai-services",
+      "agentName": "Sage",
+      "requiredHeaderIncludes": ["Sage", "AI Services"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "sage-smoke-004",
+    "category": "specialist",
+    "agent": "ai-services",
+    "message": "Compare LLM choices for a customer-facing chatbot with retrieval-augmented context.",
+    "expected": {
+      "agentSlug": "ai-services",
+      "agentName": "Sage",
+      "requiredHeaderIncludes": ["Sage", "AI Services"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "sage-smoke-005",
+    "category": "specialist",
+    "agent": "ai-services",
+    "message": "Build an embedding pipeline using a vector DB for a 10k-doc corpus.",
+    "expected": {
+      "agentSlug": "ai-services",
+      "agentName": "Sage",
+      "requiredHeaderIncludes": ["Sage", "AI Services"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+
+  {
+    "id": "bloom-smoke-001",
+    "category": "specialist",
+    "agent": "personal-growth",
+    "message": "Help me build a daily journaling habit and a morning self-improvement routine.",
+    "expected": {
+      "agentSlug": "personal-growth",
+      "agentName": "Bloom",
+      "requiredHeaderIncludes": ["Bloom", "Personal Growth"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "bloom-smoke-002",
+    "category": "specialist",
+    "agent": "personal-growth",
+    "message": "I want to learn a new hobby; what's a sustainable motivation routine for someone busy?",
+    "expected": {
+      "agentSlug": "personal-growth",
+      "agentName": "Bloom",
+      "requiredHeaderIncludes": ["Bloom", "Personal Growth"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "bloom-smoke-003",
+    "category": "specialist",
+    "agent": "personal-growth",
+    "message": "Set three quarterly goals that won't burn me out after week two.",
+    "expected": {
+      "agentSlug": "personal-growth",
+      "agentName": "Bloom",
+      "requiredHeaderIncludes": ["Bloom", "Personal Growth"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "bloom-smoke-004",
+    "category": "specialist",
+    "agent": "personal-growth",
+    "message": "Help me restart a running habit after a month off — low friction please.",
+    "expected": {
+      "agentSlug": "personal-growth",
+      "agentName": "Bloom",
+      "requiredHeaderIncludes": ["Bloom", "Personal Growth"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "bloom-smoke-005",
+    "category": "specialist",
+    "agent": "personal-growth",
+    "message": "What's a low-friction morning routine I'll actually stick with for habit-building?",
+    "expected": {
+      "agentSlug": "personal-growth",
+      "agentName": "Bloom",
+      "requiredHeaderIncludes": ["Bloom", "Personal Growth"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+
+  {
+    "id": "atlas-smoke-001",
+    "category": "specialist",
+    "agent": "consulting",
+    "message": "Run a stakeholder workshop using MECE problem framing for our roadmap.",
+    "expected": {
+      "agentSlug": "consulting",
+      "agentName": "Atlas",
+      "requiredHeaderIncludes": ["Atlas", "Consulting"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "atlas-smoke-002",
+    "category": "specialist",
+    "agent": "consulting",
+    "message": "Build an executive deck around a decision memo for the leadership group.",
+    "expected": {
+      "agentSlug": "consulting",
+      "agentName": "Atlas",
+      "requiredHeaderIncludes": ["Atlas", "Consulting"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "atlas-smoke-003",
+    "category": "specialist",
+    "agent": "consulting",
+    "message": "Frame this as a decision memo: should we acquire competitor X or build the feature ourselves?",
+    "expected": {
+      "agentSlug": "consulting",
+      "agentName": "Atlas",
+      "requiredHeaderIncludes": ["Atlas", "Consulting"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "atlas-smoke-004",
+    "category": "specialist",
+    "agent": "consulting",
+    "message": "Help me run a MECE framework on whether to consolidate two product lines.",
+    "expected": {
+      "agentSlug": "consulting",
+      "agentName": "Atlas",
+      "requiredHeaderIncludes": ["Atlas", "Consulting"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "atlas-smoke-005",
+    "category": "specialist",
+    "agent": "consulting",
+    "message": "Build a stakeholder map and workshop agenda for the kickoff.",
+    "expected": {
+      "agentSlug": "consulting",
+      "agentName": "Atlas",
+      "requiredHeaderIncludes": ["Atlas", "Consulting"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+
+  {
+    "id": "quant-smoke-001",
+    "category": "specialist",
+    "agent": "data",
+    "message": "Build an analytics dashboard SQL query for monthly active users.",
+    "expected": {
+      "agentSlug": "data",
+      "agentName": "Quant",
+      "requiredHeaderIncludes": ["Quant", "Data"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "quant-smoke-002",
+    "category": "specialist",
+    "agent": "data",
+    "message": "Run an A/B test power analysis with statistics: find the sample size needed to detect a 5% lift at 80% confidence.",
+    "expected": {
+      "agentSlug": "data",
+      "agentName": "Quant",
+      "requiredHeaderIncludes": ["Quant", "Data"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "quant-smoke-003",
+    "category": "specialist",
+    "agent": "data",
+    "message": "Plan an ETL pipeline for ingesting daily event streams into our warehouse.",
+    "expected": {
+      "agentSlug": "data",
+      "agentName": "Quant",
+      "requiredHeaderIncludes": ["Quant", "Data"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "quant-smoke-004",
+    "category": "specialist",
+    "agent": "data",
+    "message": "Help me write a SQL query to compute retention cohorts from our dataset.",
+    "expected": {
+      "agentSlug": "data",
+      "agentName": "Quant",
+      "requiredHeaderIncludes": ["Quant", "Data"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "quant-smoke-005",
+    "category": "specialist",
+    "agent": "data",
+    "message": "Build a dashboard that tracks monthly active users with cohort statistics.",
+    "expected": {
+      "agentSlug": "data",
+      "agentName": "Quant",
+      "requiredHeaderIncludes": ["Quant", "Data"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+
+  {
+    "id": "iris-smoke-001",
+    "category": "specialist",
+    "agent": "photography",
+    "message": "Plan a portrait photo shoot with three-point lighting and a short lens kit.",
+    "expected": {
+      "agentSlug": "photography",
+      "agentName": "Iris",
+      "requiredHeaderIncludes": ["Iris", "Photography"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "iris-smoke-002",
+    "category": "specialist",
+    "agent": "photography",
+    "message": "Set up RAW exposure and color grade for an outdoor product photo shoot.",
+    "expected": {
+      "agentSlug": "photography",
+      "agentName": "Iris",
+      "requiredHeaderIncludes": ["Iris", "Photography"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "iris-smoke-003",
+    "category": "specialist",
+    "agent": "photography",
+    "message": "What lens, exposure, and lighting setup should I use for a window-lit portrait?",
+    "expected": {
+      "agentSlug": "photography",
+      "agentName": "Iris",
+      "requiredHeaderIncludes": ["Iris", "Photography"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "iris-smoke-004",
+    "category": "specialist",
+    "agent": "photography",
+    "message": "Plan a shoot list for a chef portrait in their kitchen with natural lighting.",
+    "expected": {
+      "agentSlug": "photography",
+      "agentName": "Iris",
+      "requiredHeaderIncludes": ["Iris", "Photography"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  },
+  {
+    "id": "iris-smoke-005",
+    "category": "specialist",
+    "agent": "photography",
+    "message": "Color grade these portrait shoot frames for a moody low-key look.",
+    "expected": {
+      "agentSlug": "photography",
+      "agentName": "Iris",
+      "requiredHeaderIncludes": ["Iris", "Photography"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    }
+  }
+]

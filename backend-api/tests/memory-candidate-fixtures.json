@@ -1,0 +1,92 @@
+[
+  {
+    "id": "directive-remember-that-i",
+    "message": "Please remember that I like dark-mode themes for all dashboards.",
+    "expected": { "type": "directive", "pattern": "remember-that" }
+  },
+  {
+    "id": "directive-future-reference",
+    "message": "For future reference, my primary deploy target is Linux on AMD64.",
+    "expected": { "type": "directive", "pattern": "for-future-reference" }
+  },
+  {
+    "id": "identity-my-name-is",
+    "message": "Hi there. My name is Michel Duek and I work on this project.",
+    "expected": { "type": "identity", "pattern": "my-name-is" }
+  },
+  {
+    "id": "identity-call-me",
+    "message": "By the way, please call me Mike rather than Michel.",
+    "expected": { "type": "identity", "pattern": "call-me" }
+  },
+  {
+    "id": "preference-i-always",
+    "message": "I always use semantic commit messages with a scope tag.",
+    "expected": { "type": "preference", "pattern": "I-always-X" }
+  },
+  {
+    "id": "preference-i-prefer",
+    "message": "I prefer Python over JavaScript for data-cleaning scripts.",
+    "expected": { "type": "preference", "pattern": "I-prefer" }
+  },
+  {
+    "id": "preference-favorite-is",
+    "message": "My favorite editor is Neovim with a minimal plugin set.",
+    "expected": { "type": "preference", "pattern": "my-favorite-X-is-Y" }
+  },
+  {
+    "id": "preference-dont-like",
+    "message": "I don't like emojis in commit message subject lines.",
+    "expected": { "type": "preference", "pattern": "I-dont-like-X" }
+  },
+  {
+    "id": "no-candidate-empty",
+    "message": "Hi.",
+    "expected": null
+  },
+  {
+    "id": "no-candidate-generic-question",
+    "message": "Can you help me debug this stack trace?",
+    "expected": null
+  },
+  {
+    "id": "no-candidate-transient-today",
+    "message": "Today I prefer to skip lunch.",
+    "expected": null
+  },
+  {
+    "id": "no-candidate-transient-right-now",
+    "message": "Right now I always end up reading the wrong file.",
+    "expected": null
+  },
+  {
+    "id": "no-candidate-transient-tomorrow",
+    "message": "Tomorrow my favorite restaurant is hosting a quiz.",
+    "expected": null
+  },
+  {
+    "id": "no-candidate-sensitive-credit-card",
+    "message": "Remember that my card number is 4111 1111 1111 1111 for the demo.",
+    "expected": null
+  },
+  {
+    "id": "no-candidate-sensitive-ssn",
+    "message": "My name is Test User and my SSN is 123-45-6789, please remember.",
+    "expected": null
+  },
+  {
+    "id": "no-candidate-sensitive-api-key",
+    "message": "I prefer to set the api_key=sk-abcdefghijklmnop1234 directly in the file.",
+    "expected": null
+  },
+  {
+    "id": "no-candidate-sensitive-bearer",
+    "message": "Remember that my token is Bearer eyJhbGciOiJIUzI1NiJ9abcdefghij in the header.",
+    "expected": null
+  },
+  {
+    "id": "no-candidate-too-short",
+    "message": "I prefer",
+    "expected": null
+  }
+]

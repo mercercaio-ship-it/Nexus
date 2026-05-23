@@ -1,0 +1,29 @@
+{
+  "name": "creativedge",
+  "version": "0.1.0",
+  "description": "CreativEdge local-first multi-agent desktop chatbot — root workspace orchestration (backend + frontend + electron). Phases 0 through 10 complete (Windows desktop validated, full documentation set published).",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "setup": "npm run setup:backend && npm run setup:frontend && node scripts/setup-postinstall.mjs",
+    "setup:backend": "npm --prefix backend-api install",
+    "setup:frontend": "npm --prefix frontend install",
+    "setup:electron": "npm --prefix electron install",
+    "build": "npm run build:backend && npm run build:frontend",
+    "build:backend": "npm --prefix backend-api run build",
+    "build:frontend": "npm --prefix frontend run build",
+    "build:electron": "npm --prefix electron run build",
+    "typecheck": "npm run typecheck:backend && npm run typecheck:frontend",
+    "typecheck:backend": "npm --prefix backend-api run typecheck",
+    "typecheck:frontend": "npm --prefix frontend run typecheck",
+    "dev": "node scripts/dev-help.mjs",
+    "dev:backend": "npm --prefix backend-api run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:electron": "npm --prefix electron run dev",
+    "rebuild:electron": "npm --prefix electron run rebuild:sqlite"
+  },
+  "engines": {
+    "node": ">=20.11.0",
+    "npm": ">=10"
+  }
+}

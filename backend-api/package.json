@@ -1,0 +1,40 @@
+{
+  "name": "creativedge-backend",
+  "version": "0.1.0",
+  "description": "CreativEdge local backend — Fastify + SQLite (FTS5) + provider abstraction (Claude Code CLI / mock fallback). Routes for chat (SSE), agents, sessions, search, memory (promote / promote-episodic / compact / forget / status), ops (usage + crash-report prepare), and opt-in backup. 127.0.0.1 only.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "start": "node dist/index.js",
+    "clean": "rimraf dist",
+    "test:routing": "node scripts/run-routing-fixtures.mjs",
+    "test:agents": "node scripts/run-agent-behavior-smoke.mjs",
+    "test:voice": "node scripts/run-agent-voice-hold.mjs",
+    "test:memory": "node scripts/run-agent-core-memory-smoke.mjs",
+    "test:in-character": "node scripts/run-agent-in-character-tests.mjs",
+    "test:memory-candidate": "node scripts/run-memory-candidate-tests.mjs",
+    "test:memory-files": "node scripts/run-memory-files-tests.mjs",
+    "test:memory-integration": "node scripts/run-memory-integration-tests.mjs",
+    "test:sqlite": "node scripts/run-sqlite-tests.mjs",
+    "test:backup": "node scripts/run-backup-tests.mjs"
+  },
+  "dependencies": {
+    "@fastify/cors": "^10.0.1",
+    "better-sqlite3": "^11.7.0",
+    "fastify": "^5.1.0",
+    "pino": "^9.5.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/node": "^22.10.2",
+    "rimraf": "^6.0.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=20.11.0"
+  }
+}

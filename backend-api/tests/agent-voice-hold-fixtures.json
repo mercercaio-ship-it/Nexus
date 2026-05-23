@@ -1,0 +1,311 @@
+[
+  {
+    "id": "nexus-voice-001",
+    "agent": "nexus",
+    "expected": {
+      "agentSlug": "nexus",
+      "agentName": "Nexus",
+      "requiredHeaderIncludes": ["Nexus"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    },
+    "turns": [
+      "Tell me a short joke about cats.",
+      "What's a fun fact about jellyfish?",
+      "Recommend a quick stretching break I can do at my desk.",
+      "What's the etymology of the word 'serendipity'?",
+      "Share a haiku about morning coffee.",
+      "What time zone is Sao Paulo in?",
+      "Give me a one-sentence summary of why the sky is blue.",
+      "Share a friendly icebreaker question for a team kickoff.",
+      "Share a calming visualization for a stressful afternoon.",
+      "Wrap up: what's the most surprising thing you mentioned in this chat?"
+    ]
+  },
+  {
+    "id": "lumi-voice-001",
+    "agent": "graphics-design",
+    "expected": {
+      "agentSlug": "graphics-design",
+      "agentName": "Lumi",
+      "requiredHeaderIncludes": ["Lumi", "Graphics & Design"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    },
+    "turns": [
+      "Sketch a brand identity direction for a calm meditation app.",
+      "Lean into the color palette - what hues feel calming without being sleepy?",
+      "What typography pairing works with that palette?",
+      "Show me a logo direction in two sketches: minimalist vs. illustrative.",
+      "How should the brand mark scale on icons at 24px?",
+      "What layout structure works best for the onboarding poster?",
+      "Suggest two illustration styles to consider for the brand.",
+      "Refine the brand identity for the visual mark - calming but assertive.",
+      "How would the same brand work for a kid-friendly sister app?",
+      "Wrap up: a one-page summary of the design direction."
+    ]
+  },
+  {
+    "id": "bit-voice-001",
+    "agent": "programming-tech",
+    "expected": {
+      "agentSlug": "programming-tech",
+      "agentName": "Bit",
+      "requiredHeaderIncludes": ["Bit", "Programming & Tech"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    },
+    "turns": [
+      "Refactor my Express API into a cleaner DevOps-friendly framework. The current code is messy.",
+      "Walk me through extracting the routing layer into its own library.",
+      "Suggest a stack and framework for the new shared internal API.",
+      "Help me hunt down a bug in the integration test framework.",
+      "What deploy pipeline fits a small team?",
+      "Pick a logging library for production diagnostics.",
+      "Review my code structure for the new auth module.",
+      "Walk me through a refactor of the controller layer.",
+      "What's the best DevOps approach for nightly database migrations?",
+      "Wrap up: top three code-quality priorities for the next sprint."
+    ]
+  },
+  {
+    "id": "buzz-voice-001",
+    "agent": "digital-marketing",
+    "expected": {
+      "agentSlug": "digital-marketing",
+      "agentName": "Buzz",
+      "requiredHeaderIncludes": ["Buzz", "Digital Marketing"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    },
+    "turns": [
+      "Set up a Google Ads campaign with an SEO funnel for a B2B audience.",
+      "What conversion levers should we pull first?",
+      "Recommend SEO topics for the next quarter.",
+      "How do we keep funnel cost down at scale?",
+      "What's the right audience segmentation for the launch?",
+      "Pick three positioning angles for our hero ads.",
+      "Suggest a growth experiment for week one of the campaign.",
+      "What conversion goal makes sense for the email funnel?",
+      "Review my ads copy and positioning quickly.",
+      "Wrap up: top three campaign priorities for next month."
+    ]
+  },
+  {
+    "id": "reel-voice-001",
+    "agent": "video-animation",
+    "expected": {
+      "agentSlug": "video-animation",
+      "agentName": "Reel",
+      "requiredHeaderIncludes": ["Reel", "Video & Animation"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    },
+    "turns": [
+      "Storyboard a 60-second explainer animation, with a shot list and motion graphics direction.",
+      "How long should each storyboard panel hold in the animation?",
+      "What motion graphics style and scene timing fit a 60-second animation?",
+      "Outline the shot list for the product hero animation sequence.",
+      "Suggest a reel cut sequence and motion graphics direction for social posts.",
+      "Walk me through editing the title sequence in Premiere.",
+      "Create the After Effects animation notes for the end card: keyframes, motion timing, scene transition, and final video frame.",
+      "What animation style fits an explainer video for a meditation app?",
+      "Storyboard the closing 10 seconds of the reel.",
+      "Wrap up: a tight production timeline for the full video edit."
+    ]
+  },
+  {
+    "id": "lex-voice-001",
+    "agent": "writing-translation",
+    "expected": {
+      "agentSlug": "writing-translation",
+      "agentName": "Lex",
+      "requiredHeaderIncludes": ["Lex", "Writing & Translation"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    },
+    "turns": [
+      "Edit the prose and tone of this sentence to be clearer and warmer: \"Our platform helps teams finish tasks faster without making the process feel complicated.\"",
+      "Tighten the same sentence keeping the warm tone.",
+      "Translate the sentence into European Portuguese with localization for cultural nuance.",
+      "Ghostwrite a 200-word opener for the launch blog post.",
+      "Edit prose to remove jargon while keeping the warmth.",
+      "Write a short reflective essay about returning to focus work.",
+      "Suggest a softer tone for this internal announcement.",
+      "Translate the headline into Spanish with localization for Latin America.",
+      "Edit the blog post intro for clarity and tone.",
+      "Wrap up: revise the tagline with a warm tone."
+    ]
+  },
+  {
+    "id": "echo-voice-001",
+    "agent": "music-audio",
+    "expected": {
+      "agentSlug": "music-audio",
+      "agentName": "Echo",
+      "requiredHeaderIncludes": ["Echo", "Music & Audio"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    },
+    "turns": [
+      "Compose a 30-second ambient instrumental score for a meditation podcast intro, including tempo and mix notes.",
+      "Suggest two ambient variations for the score.",
+      "What instrumentation works under the ambient score?",
+      "Walk me through the mix decisions for the intro stinger.",
+      "Master the track to feel warm but uncluttered.",
+      "Compose a song concept for a wellness app jingle.",
+      "Suggest a voice-over delivery direction for the narration.",
+      "Score a 15-second outro to match the intro.",
+      "How do I mix podcast audio so dialogue stays clear?",
+      "Wrap up: a master plan for the audio score pipeline."
+    ]
+  },
+  {
+    "id": "vera-voice-001",
+    "agent": "business",
+    "expected": {
+      "agentSlug": "business",
+      "agentName": "Vera",
+      "requiredHeaderIncludes": ["Vera", "Business"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    },
+    "turns": [
+      "Help me set the pricing and OKRs for our seed-stage SaaS.",
+      "Stress-test the pricing tiers at scale.",
+      "Draft a fundraising narrative for a Series A pitch.",
+      "Build a GTM strategy for entering the EU SMB market.",
+      "Compare flat-rate vs usage-based pricing for our B2B SaaS.",
+      "What OKRs fit a 20-person team in Q2?",
+      "Refine our business model around the new revenue mix.",
+      "Tighten the fundraising narrative for the lead investor.",
+      "Map the org design implications of doubling sales.",
+      "Wrap up: a one-page strategy summary."
+    ]
+  },
+  {
+    "id": "cash-voice-001",
+    "agent": "finance",
+    "expected": {
+      "agentSlug": "finance",
+      "agentName": "Cash",
+      "requiredHeaderIncludes": ["Cash", "Finance"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    },
+    "turns": [
+      "Build a 3-year cash flow forecast with debt and tax scenarios.",
+      "What investment mix at age 40 makes sense with moderate savings?",
+      "Help me set a monthly budget that covers debt payoff.",
+      "Walk me through retirement contributions in tax-advantaged accounts.",
+      "Run a quick startup valuation for SaaS pre-seed.",
+      "What's the tax-optimized way to handle a $50k bonus?",
+      "Stress-test the cash flow under a 6-month revenue dip.",
+      "What should I prioritize: debt payoff or investment growth?",
+      "Forecast the savings runway if we hire two people this year.",
+      "Wrap up: a one-page cash flow summary for the year."
+    ]
+  },
+  {
+    "id": "sage-voice-001",
+    "agent": "ai-services",
+    "expected": {
+      "agentSlug": "ai-services",
+      "agentName": "Sage",
+      "requiredHeaderIncludes": ["Sage", "AI Services"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    },
+    "turns": [
+      "RAG vs fine-tune for a 500-doc internal knowledge base - which and why?",
+      "What embedding model fits our policy corpus?",
+      "Walk me through prompt engineering for the customer-facing agent.",
+      "Recommend a vector DB for our retrieval pipeline.",
+      "Outline an AI workflow for ingest + reranking + citation.",
+      "Compare two LLM choices for chatbot retrieval.",
+      "When should we fine-tune vs RAG?",
+      "What agent pattern fits a multi-tool AI workflow?",
+      "Audit the prompt engineering for hallucination risk.",
+      "Wrap up: a top-three priority list for the LLM agent rollout."
+    ]
+  },
+  {
+    "id": "bloom-voice-001",
+    "agent": "personal-growth",
+    "expected": {
+      "agentSlug": "personal-growth",
+      "agentName": "Bloom",
+      "requiredHeaderIncludes": ["Bloom", "Personal Growth"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    },
+    "turns": [
+      "Help me build a daily journaling habit and a morning self-improvement routine.",
+      "What's a low-friction habit to add next week?",
+      "Set three quarterly goals that won't burn me out.",
+      "How do I keep motivation steady on rough days?",
+      "Recommend a learn-by-doing approach for a new hobby.",
+      "Refine my morning routine to fit a 30-minute window.",
+      "What journaling prompts work for end-of-day reflection?",
+      "Help me restart a habit after a month off.",
+      "What's a sustainable motivation strategy for week 4?",
+      "Wrap up: a one-week self-improvement plan."
+    ]
+  },
+  {
+    "id": "atlas-voice-001",
+    "agent": "consulting",
+    "expected": {
+      "agentSlug": "consulting",
+      "agentName": "Atlas",
+      "requiredHeaderIncludes": ["Atlas"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"],
+      "note": "Phase 4.4-B reliability patch: relaxed from [\"Atlas\", \"Consulting\"] to [\"Atlas\"] only. Atlas can legitimately accept the turn and (per the Phase 3.3 handoff design) hand off mid-turn to another specialist; in that case the visible stream is `🌐 Nexus — handoff accepted\\nAtlas identified that this is better handled by ...` (preserves the `Atlas` persona marker but drops the `Consulting` domain marker because the target specialist's domain is what gets streamed next). The route + initial agent are still strictly validated via `agentSlug:\"consulting\"` and `agentName:\"Atlas\"`, and the forbidden-leakage check is unchanged. Voice-hold still requires `Atlas` to appear on every turn."
+    },
+    "turns": [
+      "Run a stakeholder workshop using MECE problem framing for our roadmap.",
+      "Draft a decision memo for the leadership review.",
+      "Frame the strategic options in a decision memo.",
+      "Build an executive deck for the M&A review.",
+      "Plan a workshop agenda for the leadership offsite.",
+      "Map the stakeholder landscape for the product team.",
+      "Apply MECE to the cost-cutting plan.",
+      "What framework helps the team choose between two strategies?",
+      "Tighten the problem framing for the board update.",
+      "Wrap up: a one-page executive deck summary."
+    ]
+  },
+  {
+    "id": "quant-voice-001",
+    "agent": "data",
+    "expected": {
+      "agentSlug": "data",
+      "agentName": "Quant",
+      "requiredHeaderIncludes": ["Quant", "Data"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    },
+    "turns": [
+      "Build an analytics dashboard SQL query for monthly active users.",
+      "Plan the ETL pipeline for daily event ingestion.",
+      "Run an A/B test power analysis with statistics to find the sample size.",
+      "Suggest a dashboard layout for retention cohorts.",
+      "Run statistics on this experiment dataset to estimate the sample size, confidence interval, and statistical power for detecting a 5% lift.",
+      "What ETL tool fits a small data team?",
+      "Help me read this statistics output for an A/B test.",
+      "Refresh the analytics dataset definitions.",
+      "Pick a dashboard for the weekly metrics review.",
+      "Wrap up: a top-three SQL query priority list."
+    ]
+  },
+  {
+    "id": "iris-voice-001",
+    "agent": "photography",
+    "expected": {
+      "agentSlug": "photography",
+      "agentName": "Iris",
+      "requiredHeaderIncludes": ["Iris", "Photography"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    },
+    "turns": [
+      "Plan a portrait photo shoot with three-point lighting and a short lens kit.",
+      "What lens works best for the studio portrait?",
+      "Set up RAW exposure for an outdoor product shoot.",
+      "Plan the color grade for the editorial portrait set.",
+      "Walk me through a shoot list for the chef's kitchen portrait.",
+      "What lighting setup softens shadows in the portrait shoot?",
+      "How do I set exposure in low light for a portrait?",
+      "Pick a lens for the documentary photo project.",
+      "Refine the color grade for the moody portrait set.",
+      "Wrap up: a one-page shoot brief and lens kit summary."
+    ]
+  }
+]

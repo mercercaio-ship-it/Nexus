@@ -1,0 +1,12 @@
+# Electron build / package outputs
+dist-electron/
+dist/
+out/
+
+# npm
+node_modules/
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,26 @@
+{
+  "name": "creativedge-frontend",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "CreativEdge frontend — Vite + React + TypeScript chat UI plus Phase 7 admin console (agents inspector + Phase 7-B safe editor + Phase 7-C memory diff editor + routing playground) and the Phase 9-D Ops console (Diagnostics / Usage & cost / Budget & trends / Local logs / Crash reports / Backup / Update info). Renderer reads runtime config via the Electron preload bridge.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^9.0.1",
+    "remark-gfm": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5"
+  }
+}

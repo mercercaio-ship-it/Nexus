@@ -1,0 +1,88 @@
+{
+  "name": "creativedge-electron",
+  "version": "0.1.0",
+  "description": "CreativEdge Electron desktop wrapper — hardened renderer (contextIsolation + sandbox + nodeIntegration:false + webSecurity), Phase 9-D-C3 dynamic free-port allocation, Phase 9-D-B4 safe external-link preload bridge, Phase 9-D-B2 afterPack better-sqlite3 ABI rebuild (packaged copy only). Windows x64 NSIS build target.",
+  "private": true,
+  "main": "main.mjs",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/build-deps.mjs && electron .",
+    "build": "node scripts/build-win.mjs",
+    "rebuild:sqlite": "electron-rebuild --module-dir ../backend-api -w better-sqlite3 -f",
+    "postinstall": "node -e \"console.log('CreativEdge electron deps installed. Next: npm run dev (from electron/) or npm run dev:electron (from repo root).')\""
+  },
+  "devDependencies": {
+    "electron": "^30.0.0",
+    "electron-builder": "^24.13.3",
+    "@electron/rebuild": "^3.6.0"
+  },
+  "engines": {
+    "node": ">=20.11.0"
+  },
+  "build": {
+    "appId": "com.creativedge.desktop",
+    "productName": "CreativEdge",
+    "asar": true,
+    "directories": {
+      "output": "dist-electron"
+    },
+    "files": [
+      "main.mjs",
+      "preload.cjs",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "../backend-api/dist",
+        "to": "backend-api/dist",
+        "filter": [
+          "**/*"
+        ]
+      },
+      {
+        "from": "../backend-api/node_modules",
+        "to": "backend-api/node_modules",
+        "filter": [
+          "**/*"
+        ]
+      },
+      {
+        "from": "../backend-api/package.json",
+        "to": "backend-api/package.json"
+      },
+      {
+        "from": "../frontend/dist",
+        "to": "frontend/dist",
+        "filter": [
+          "**/*"
+        ]
+      },
+      {
+        "from": "../agents",
+        "to": "agents",
+        "filter": [
+          "**/*"
+        ]
+      },
+      {
+        "from": "../orchestrator",
+        "to": "orchestrator",
+        "filter": [
+          "**/*"
+        ]
+      }
+    ],
+    "win": {
+      "target": "nsis",
+      "artifactName": "CreativEdge-Setup-${version}.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true
+    },
+    "npmRebuild": false,
+    "buildDependenciesFromSource": false,
+    "afterPack": "./scripts/after-pack.mjs"
+  }
+}

@@ -1,0 +1,97 @@
+[
+  {
+    "id": "contam-lumi-to-bit-001",
+    "note": "Phase 8.2 — cross-character contamination check. Lumi (graphics-design) speaks first, then Bit (programming-tech) is routed in the same session. Bit's reply must not carry Lumi's header markers.",
+    "source": {
+      "agentSlug": "graphics-design",
+      "agentName": "Lumi",
+      "message": "Sketch a brand identity direction for a calm meditation app.",
+      "requiredHeaderIncludes": ["Lumi", "Graphics & Design"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    },
+    "target": {
+      "agentSlug": "programming-tech",
+      "agentName": "Bit",
+      "message": "Refactor my Express API into a cleaner DevOps-friendly framework. The current code is messy.",
+      "requiredHeaderIncludes": ["Bit", "Programming & Tech"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"],
+      "forbiddenSourceMarkers": ["🎨 Lumi", "Lumi — Graphics", "Graphics & Design"]
+    }
+  },
+  {
+    "id": "contam-bit-to-echo-001",
+    "note": "Phase 8.2 — Bit (programming-tech) speaks first, then Echo (music-audio) is routed. Echo's reply must not carry Bit's header markers. Bare 'Bit' is intentionally NOT in forbiddenSourceMarkers because it's a generic English word; only header-fragment patterns are checked.",
+    "source": {
+      "agentSlug": "programming-tech",
+      "agentName": "Bit",
+      "message": "There is a memory leak bug in my Node library; help me debug and deploy a fix.",
+      "requiredHeaderIncludes": ["Bit", "Programming & Tech"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    },
+    "target": {
+      "agentSlug": "music-audio",
+      "agentName": "Echo",
+      "message": "Mix and master this voice-over track for a podcast episode.",
+      "requiredHeaderIncludes": ["Echo", "Music & Audio"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"],
+      "forbiddenSourceMarkers": ["💻 Bit", "Bit — Programming", "Programming & Tech"]
+    }
+  },
+  {
+    "id": "contam-vera-to-cash-001",
+    "note": "Phase 8.2 — Vera (business) speaks first, then Cash (finance) is routed. Cash's reply must not carry Vera's header. Bare 'Business' is intentionally NOT in forbiddenSourceMarkers because Cash's cash-flow reply may legitimately reference business operations; only header-fragment patterns are checked.",
+    "source": {
+      "agentSlug": "business",
+      "agentName": "Vera",
+      "message": "Help me set the pricing and OKRs for our seed-stage SaaS.",
+      "requiredHeaderIncludes": ["Vera", "Business"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    },
+    "target": {
+      "agentSlug": "finance",
+      "agentName": "Cash",
+      "message": "Build a 3-year cash flow forecast with debt and tax scenarios.",
+      "requiredHeaderIncludes": ["Cash", "Finance"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"],
+      "forbiddenSourceMarkers": ["💼 Vera", "Vera — Business"]
+    }
+  },
+  {
+    "id": "contam-sage-to-reel-001",
+    "note": "Phase 8.2 — Sage (ai-services) speaks first, then Reel (video-animation) is routed. Reel's storyboard reply must not carry Sage's header. Bare 'Sage' is avoided (collides with the English idiom 'sage advice'); only header-fragment patterns are checked.",
+    "source": {
+      "agentSlug": "ai-services",
+      "agentName": "Sage",
+      "message": "RAG vs fine-tune for a 500-doc internal knowledge base — which and why?",
+      "requiredHeaderIncludes": ["Sage", "AI Services"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    },
+    "target": {
+      "agentSlug": "video-animation",
+      "agentName": "Reel",
+      "message": "Storyboard a 60-second explainer animation, with a shot list and motion graphics direction.",
+      "requiredHeaderIncludes": ["Reel", "Video & Animation"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"],
+      "forbiddenSourceMarkers": ["🤖 Sage", "Sage — AI"]
+    }
+  },
+  {
+    "id": "contam-atlas-to-iris-001",
+    "note": "Phase 8.2 — Atlas (consulting) speaks first, then Iris (photography) is routed. Iris's photo-shoot reply must not carry Atlas's header. Bare 'Atlas' is avoided (collides with the cartographic noun); only header-fragment patterns are checked.",
+    "source": {
+      "agentSlug": "consulting",
+      "agentName": "Atlas",
+      "message": "Run a stakeholder workshop using MECE problem framing for our roadmap.",
+      "requiredHeaderIncludes": ["Atlas", "Consulting"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"]
+    },
+    "target": {
+      "agentSlug": "photography",
+      "agentName": "Iris",
+      "message": "Plan a portrait photo shoot with three-point lighting and a short lens kit.",
+      "requiredHeaderIncludes": ["Iris", "Photography"],
+      "forbiddenIncludes": ["Superpowers", "MCP", "Claude Code", "<CREATIVEDGE_HANDOFF>"],
+      "forbiddenSourceMarkers": ["🧭 Atlas", "Atlas — Consulting"]
+    }
+  }
+]

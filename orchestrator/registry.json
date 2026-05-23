@@ -1,0 +1,283 @@
+{
+  "schema_version": 1,
+  "generated": "2026-05-15",
+  "count": {
+    "orchestrator": 1,
+    "specialists": 13
+  },
+  "entries": [
+    {
+      "slug": "nexus",
+      "name": "Nexus",
+      "emoji": "🌐",
+      "mbti": "ESFJ",
+      "role": "orchestrator",
+      "path": "orchestrator/"
+    },
+    {
+      "slug": "graphics-design",
+      "name": "Lumi",
+      "domain": "Graphics & Design",
+      "emoji": "🎨",
+      "mbti": "ISFP",
+      "color": "#FF6BB3",
+      "role": "specialist",
+      "path": "agents/graphics-design/",
+      "routing_keywords": [
+        "logo",
+        "brand",
+        "design",
+        "color palette",
+        "typography",
+        "layout",
+        "ui mock",
+        "poster",
+        "icon",
+        "illustration"
+      ]
+    },
+    {
+      "slug": "programming-tech",
+      "name": "Bit",
+      "domain": "Programming & Tech",
+      "emoji": "💻",
+      "mbti": "INTP",
+      "color": "#3DDC97",
+      "role": "specialist",
+      "path": "agents/programming-tech/",
+      "routing_keywords": [
+        "code",
+        "bug",
+        "stack",
+        "framework",
+        "API",
+        "refactor",
+        "deploy",
+        "DevOps",
+        "library",
+        "language choice"
+      ]
+    },
+    {
+      "slug": "digital-marketing",
+      "name": "Buzz",
+      "domain": "Digital Marketing",
+      "emoji": "📈",
+      "mbti": "ENTP",
+      "color": "#FF9F1C",
+      "role": "specialist",
+      "path": "agents/digital-marketing/",
+      "routing_keywords": [
+        "ads",
+        "campaign",
+        "SEO",
+        "funnel",
+        "growth",
+        "conversion",
+        "audience",
+        "positioning",
+        "copywriting (ads)"
+      ]
+    },
+    {
+      "slug": "video-animation",
+      "name": "Reel",
+      "domain": "Video & Animation",
+      "emoji": "🎬",
+      "mbti": "ENFP",
+      "color": "#E63946",
+      "role": "specialist",
+      "path": "agents/video-animation/",
+      "routing_keywords": [
+        "video",
+        "edit",
+        "animation",
+        "motion graphics",
+        "storyboard",
+        "shot list",
+        "reel",
+        "after effects",
+        "premiere"
+      ]
+    },
+    {
+      "slug": "writing-translation",
+      "name": "Lex",
+      "domain": "Writing & Translation",
+      "emoji": "✍️",
+      "mbti": "INFJ",
+      "color": "#9B5DE5",
+      "role": "specialist",
+      "path": "agents/writing-translation/",
+      "routing_keywords": [
+        "article",
+        "essay",
+        "translation",
+        "localization",
+        "ghostwrite",
+        "edit prose",
+        "tone",
+        "blog post"
+      ]
+    },
+    {
+      "slug": "music-audio",
+      "name": "Echo",
+      "domain": "Music & Audio",
+      "emoji": "🎵",
+      "mbti": "INFP",
+      "color": "#00BBF9",
+      "role": "specialist",
+      "path": "agents/music-audio/",
+      "routing_keywords": [
+        "song",
+        "mix",
+        "master",
+        "podcast audio",
+        "voice-over",
+        "sound design",
+        "score",
+        "ambient"
+      ]
+    },
+    {
+      "slug": "business",
+      "name": "Vera",
+      "domain": "Business",
+      "emoji": "💼",
+      "mbti": "ENTJ",
+      "color": "#1D3557",
+      "role": "specialist",
+      "path": "agents/business/",
+      "routing_keywords": [
+        "strategy",
+        "business model",
+        "pricing",
+        "OKR",
+        "GTM",
+        "org design",
+        "fundraising narrative"
+      ]
+    },
+    {
+      "slug": "finance",
+      "name": "Cash",
+      "domain": "Finance",
+      "emoji": "💰",
+      "mbti": "ISTJ",
+      "color": "#2A9D8F",
+      "role": "specialist",
+      "path": "agents/finance/",
+      "routing_keywords": [
+        "budget",
+        "forecast",
+        "valuation",
+        "cash flow",
+        "tax",
+        "retirement",
+        "investment",
+        "debt",
+        "savings"
+      ]
+    },
+    {
+      "slug": "ai-services",
+      "name": "Sage",
+      "domain": "AI Services",
+      "emoji": "🤖",
+      "mbti": "INTJ",
+      "color": "#7209B7",
+      "role": "specialist",
+      "path": "agents/ai-services/",
+      "routing_keywords": [
+        "LLM",
+        "RAG",
+        "agent",
+        "prompt engineering",
+        "fine-tune",
+        "embedding",
+        "vector DB",
+        "AI workflow"
+      ]
+    },
+    {
+      "slug": "personal-growth",
+      "name": "Bloom",
+      "domain": "Personal Growth & Hobbies",
+      "emoji": "🌱",
+      "mbti": "ENFJ",
+      "color": "#80B918",
+      "role": "specialist",
+      "path": "agents/personal-growth/",
+      "routing_keywords": [
+        "habit",
+        "learn",
+        "hobby",
+        "motivation",
+        "journaling",
+        "self-improvement",
+        "goals",
+        "routine"
+      ]
+    },
+    {
+      "slug": "consulting",
+      "name": "Atlas",
+      "domain": "Consulting",
+      "emoji": "🧭",
+      "mbti": "ESTJ",
+      "color": "#6C757D",
+      "role": "specialist",
+      "path": "agents/consulting/",
+      "routing_keywords": [
+        "framework",
+        "problem framing",
+        "stakeholder",
+        "workshop",
+        "decision memo",
+        "executive deck",
+        "MECE"
+      ]
+    },
+    {
+      "slug": "data",
+      "name": "Quant",
+      "domain": "Data",
+      "emoji": "📊",
+      "mbti": "ISTP",
+      "color": "#0077B6",
+      "role": "specialist",
+      "path": "agents/data/",
+      "routing_keywords": [
+        "dataset",
+        "SQL",
+        "analytics",
+        "statistics",
+        "A/B test",
+        "model (statistical)",
+        "dashboard",
+        "ETL"
+      ]
+    },
+    {
+      "slug": "photography",
+      "name": "Iris",
+      "domain": "Photography",
+      "emoji": "📸",
+      "mbti": "ISFJ",
+      "color": "#D4A373",
+      "role": "specialist",
+      "path": "agents/photography/",
+      "routing_keywords": [
+        "photo",
+        "lighting",
+        "lens",
+        "portrait",
+        "RAW",
+        "color grade",
+        "shoot",
+        "exposure"
+      ]
+    }
+  ]
+}

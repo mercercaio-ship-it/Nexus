@@ -1,0 +1,48 @@
+# GitHub Issue Template chooser configuration.
+# Reference: https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository
+#
+# Blank issues are disabled to push reports through the structured
+# templates above (bug report / feature request / documentation).
+# Anyone who genuinely needs an unstructured channel can use the
+# "Open a blank issue" link that GitHub exposes via the
+# repository's Discussions tab, or follow one of the contact links
+# below.
+
+blank_issues_enabled: false
+
+contact_links:
+  - name: 🔒 Report a security vulnerability
+    url: https://github.com/michelbr84/CreativEdge/security/advisories/new
+    about: >-
+      Do NOT file vulnerabilities in public issues. Use GitHub
+      Private Vulnerability Reporting. See SECURITY.md for the
+      full disclosure policy, threat model, and what NOT to
+      include in a report.
+
+  - name: 🛠️ Troubleshoot first
+    url: https://github.com/michelbr84/CreativEdge/blob/main/docs/troubleshooting.md
+    about: >-
+      26-section troubleshooting guide covering install failures,
+      port collisions, NODE_MODULE_VERSION mismatch, release-link
+      failures, backup readiness blockers, OneDrive caveats, and
+      more. Most reports are resolved here.
+
+  - name: 📦 Release readiness + Windows packaged validation
+    url: https://github.com/michelbr84/CreativEdge/blob/main/docs/release-readiness.md
+    about: >-
+      Preflight checklist, build commands, the §3 Windows
+      packaged-validation walkthrough, artifact rules, and the
+      §5 GitHub release draft checklist.
+
+  - name: 🤝 Contribute
+    url: https://github.com/michelbr84/CreativEdge/blob/main/CONTRIBUTING.md
+    about: >-
+      Contributor handbook — setup, build, validation
+      expectations, commit conventions, privacy/security rules,
+      AI-coding-agent protocol.
+
+  - name: 🗺️ Phase roadmap
+    url: https://github.com/michelbr84/CreativEdge/blob/main/todo.md
+    about: >-
+      Canonical state-of-the-world for "what's done" and "what's
+      open" across every phase and sub-slice.

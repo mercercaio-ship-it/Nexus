@@ -1,0 +1,294 @@
+[
+  {
+    "id": "nexus-memory-001",
+    "agent": "nexus",
+    "coreMemoryProbe": "[ce-test:nexus]",
+    "message": "For this orchestrator coordination check, read your core memory and quote the exact ce-test marker you find there, then add one short routing-orchestrator note.",
+    "expected": {
+      "agentSlug": "nexus",
+      "agentName": "Nexus",
+      "requiredHeaderIncludes": [
+        "Nexus"
+      ],
+      "forbiddenIncludes": [
+        "Superpowers",
+        "MCP",
+        "Claude Code",
+        "<CREATIVEDGE_HANDOFF>"
+      ],
+      "responseIncludes": "[ce-test:nexus]"
+    }
+  },
+  {
+    "id": "lumi-memory-001",
+    "agent": "graphics-design",
+    "coreMemoryProbe": "[ce-test:lumi]",
+    "message": "For this graphics design identity check, read your core memory and quote the exact ce-test marker you find there, then add one short brand identity note.",
+    "expected": {
+      "agentSlug": "graphics-design",
+      "agentName": "Lumi",
+      "requiredHeaderIncludes": [
+        "Lumi",
+        "Graphics & Design"
+      ],
+      "forbiddenIncludes": [
+        "Superpowers",
+        "MCP",
+        "Claude Code",
+        "<CREATIVEDGE_HANDOFF>"
+      ],
+      "responseIncludes": "[ce-test:lumi]"
+    }
+  },
+  {
+    "id": "bit-memory-001",
+    "agent": "programming-tech",
+    "coreMemoryProbe": "[ce-test:bit]",
+    "message": "For this programming code and API check, read your core memory and quote the exact ce-test marker you find there, then add one short technical-architecture note.",
+    "expected": {
+      "agentSlug": "programming-tech",
+      "agentName": "Bit",
+      "requiredHeaderIncludes": [
+        "Bit",
+        "Programming & Tech"
+      ],
+      "forbiddenIncludes": [
+        "Superpowers",
+        "MCP",
+        "Claude Code",
+        "<CREATIVEDGE_HANDOFF>"
+      ],
+      "responseIncludes": "[ce-test:bit]"
+    }
+  },
+  {
+    "id": "buzz-memory-001",
+    "agent": "digital-marketing",
+    "coreMemoryProbe": "[ce-test:buzz]",
+    "message": "For this digital marketing campaign check, read your core memory and quote the exact ce-test marker you find there, then add one short audience-segment note.",
+    "expected": {
+      "agentSlug": "digital-marketing",
+      "agentName": "Buzz",
+      "requiredHeaderIncludes": [
+        "Buzz",
+        "Digital Marketing"
+      ],
+      "forbiddenIncludes": [
+        "Superpowers",
+        "MCP",
+        "Claude Code",
+        "<CREATIVEDGE_HANDOFF>"
+      ],
+      "responseIncludes": "[ce-test:buzz]"
+    }
+  },
+  {
+    "id": "reel-memory-001",
+    "agent": "video-animation",
+    "coreMemoryProbe": "[ce-test:reel]",
+    "message": "For this video animation storyboard check, read your core memory and quote the exact ce-test marker you find there, then add one short motion-storyboard note.",
+    "expected": {
+      "agentSlug": "video-animation",
+      "agentName": "Reel",
+      "requiredHeaderIncludes": [
+        "Reel",
+        "Video & Animation"
+      ],
+      "forbiddenIncludes": [
+        "Superpowers",
+        "MCP",
+        "Claude Code",
+        "<CREATIVEDGE_HANDOFF>"
+      ],
+      "responseIncludes": "[ce-test:reel]"
+    }
+  },
+  {
+    "id": "lex-memory-001",
+    "agent": "writing-translation",
+    "coreMemoryProbe": "[ce-test:lex]",
+    "message": "For this writing and translation prose check, read your core memory and quote the exact ce-test marker you find there, then add one short tone editing note.",
+    "expected": {
+      "agentSlug": "writing-translation",
+      "agentName": "Lex",
+      "requiredHeaderIncludes": [
+        "Lex",
+        "Writing & Translation"
+      ],
+      "forbiddenIncludes": [
+        "Superpowers",
+        "MCP",
+        "Claude Code",
+        "<CREATIVEDGE_HANDOFF>"
+      ],
+      "responseIncludes": "[ce-test:lex]"
+    }
+  },
+  {
+    "id": "echo-memory-001",
+    "agent": "music-audio",
+    "coreMemoryProbe": "[ce-test:echo]",
+    "message": "For this music mix and master ambient audio check, read your core memory and quote the exact ce-test marker you find there, then add one short tempo note.",
+    "expected": {
+      "agentSlug": "music-audio",
+      "agentName": "Echo",
+      "requiredHeaderIncludes": [
+        "Echo",
+        "Music & Audio"
+      ],
+      "forbiddenIncludes": [
+        "Superpowers",
+        "MCP",
+        "Claude Code",
+        "<CREATIVEDGE_HANDOFF>"
+      ],
+      "responseIncludes": "[ce-test:echo]"
+    }
+  },
+  {
+    "id": "vera-memory-001",
+    "agent": "business",
+    "coreMemoryProbe": "[ce-test:vera]",
+    "message": "For this business operations pricing check, read your core memory and quote the exact ce-test marker you find there, then add one short business-operations note.",
+    "expected": {
+      "agentSlug": "business",
+      "agentName": "Vera",
+      "requiredHeaderIncludes": [
+        "Vera",
+        "Business"
+      ],
+      "forbiddenIncludes": [
+        "Superpowers",
+        "MCP",
+        "Claude Code",
+        "<CREATIVEDGE_HANDOFF>"
+      ],
+      "responseIncludes": "[ce-test:vera]"
+    }
+  },
+  {
+    "id": "cash-memory-001",
+    "agent": "finance",
+    "coreMemoryProbe": "[ce-test:cash]",
+    "message": "For this finance budget and cash flow check, read your core memory and quote the exact ce-test marker you find there, then add one short cash-flow note.",
+    "expected": {
+      "agentSlug": "finance",
+      "agentName": "Cash",
+      "requiredHeaderIncludes": [
+        "Cash",
+        "Finance"
+      ],
+      "forbiddenIncludes": [
+        "Superpowers",
+        "MCP",
+        "Claude Code",
+        "<CREATIVEDGE_HANDOFF>"
+      ],
+      "responseIncludes": "[ce-test:cash]"
+    }
+  },
+  {
+    "id": "sage-memory-001",
+    "agent": "ai-services",
+    "coreMemoryProbe": "[ce-test:sage]",
+    "message": "For this AI services RAG automation check, read your core memory and quote the exact ce-test marker you find there, then add one short AI-model note.",
+    "expected": {
+      "agentSlug": "ai-services",
+      "agentName": "Sage",
+      "requiredHeaderIncludes": [
+        "Sage",
+        "AI Services"
+      ],
+      "forbiddenIncludes": [
+        "Superpowers",
+        "MCP",
+        "Claude Code",
+        "<CREATIVEDGE_HANDOFF>"
+      ],
+      "responseIncludes": "[ce-test:sage]"
+    }
+  },
+  {
+    "id": "bloom-memory-001",
+    "agent": "personal-growth",
+    "coreMemoryProbe": "[ce-test:bloom]",
+    "message": "For this personal growth habit and routine check, read your core memory and quote the exact ce-test marker you find there, then add one short habit-routine note.",
+    "expected": {
+      "agentSlug": "personal-growth",
+      "agentName": "Bloom",
+      "requiredHeaderIncludes": [
+        "Bloom",
+        "Personal Growth"
+      ],
+      "forbiddenIncludes": [
+        "Superpowers",
+        "MCP",
+        "Claude Code",
+        "<CREATIVEDGE_HANDOFF>"
+      ],
+      "responseIncludes": "[ce-test:bloom]"
+    }
+  },
+  {
+    "id": "atlas-memory-001",
+    "agent": "consulting",
+    "coreMemoryProbe": "[ce-test:atlas]",
+    "message": "For this consulting decision framework check, read your core memory and quote the exact ce-test marker you find there, then add one short consulting-framework note.",
+    "expected": {
+      "agentSlug": "consulting",
+      "agentName": "Atlas",
+      "requiredHeaderIncludes": [
+        "Atlas"
+      ],
+      "forbiddenIncludes": [
+        "Superpowers",
+        "MCP",
+        "Claude Code",
+        "<CREATIVEDGE_HANDOFF>"
+      ],
+      "responseIncludes": "[ce-test:atlas]"
+    }
+  },
+  {
+    "id": "quant-memory-001",
+    "agent": "data",
+    "coreMemoryProbe": "[ce-test:quant]",
+    "message": "For this data analysis statistics and metrics check, read your core memory and quote the exact ce-test marker you find there, then add one short dataset-metrics note.",
+    "expected": {
+      "agentSlug": "data",
+      "agentName": "Quant",
+      "requiredHeaderIncludes": [
+        "Quant",
+        "Data"
+      ],
+      "forbiddenIncludes": [
+        "Superpowers",
+        "MCP",
+        "Claude Code",
+        "<CREATIVEDGE_HANDOFF>"
+      ],
+      "responseIncludes": "[ce-test:quant]"
+    }
+  },
+  {
+    "id": "iris-memory-001",
+    "agent": "photography",
+    "coreMemoryProbe": "[ce-test:iris]",
+    "message": "For this photography lighting and portrait check, read your core memory and quote the exact ce-test marker you find there, then add one short camera-lighting note.",
+    "expected": {
+      "agentSlug": "photography",
+      "agentName": "Iris",
+      "requiredHeaderIncludes": [
+        "Iris",
+        "Photography"
+      ],
+      "forbiddenIncludes": [
+        "Superpowers",
+        "MCP",
+        "Claude Code",
+        "<CREATIVEDGE_HANDOFF>"
+      ],
+      "responseIncludes": "[ce-test:iris]"
+    }
+  }
+]

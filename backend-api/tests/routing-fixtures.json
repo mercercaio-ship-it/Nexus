@@ -1,0 +1,365 @@
+[
+  {
+    "id": "gd-001",
+    "category": "specialist",
+    "message": "Design a minimalist logo concept for a meditation app, with a color palette suggestion.",
+    "expected": {
+      "type": "specialist",
+      "agentSlug": "graphics-design"
+    }
+  },
+  {
+    "id": "gd-002",
+    "category": "specialist",
+    "message": "I need a poster layout and brand typography direction for a sustainable fashion line.",
+    "expected": {
+      "type": "specialist",
+      "agentSlug": "graphics-design"
+    }
+  },
+  {
+    "id": "pt-001",
+    "category": "specialist",
+    "message": "Refactor my Express API into a cleaner DevOps-friendly framework. The current code is messy.",
+    "expected": {
+      "type": "specialist",
+      "agentSlug": "programming-tech"
+    }
+  },
+  {
+    "id": "pt-002",
+    "category": "specialist",
+    "message": "There is a memory leak bug in my Node library; help me debug and deploy a fix.",
+    "expected": {
+      "type": "specialist",
+      "agentSlug": "programming-tech"
+    }
+  },
+  {
+    "id": "dm-001",
+    "category": "specialist",
+    "message": "Set up a Google Ads campaign with an SEO funnel for a B2B audience.",
+    "expected": {
+      "type": "specialist",
+      "agentSlug": "digital-marketing"
+    }
+  },
+  {
+    "id": "dm-002",
+    "category": "specialist",
+    "message": "What is the right positioning and conversion strategy for a niche productivity SaaS?",
+    "expected": {
+      "type": "specialist",
+      "acceptableSlugs": ["digital-marketing", "business"]
+    }
+  },
+  {
+    "id": "va-001",
+    "category": "specialist",
+    "message": "Storyboard a 60-second explainer animation, with a shot list and motion graphics direction.",
+    "expected": {
+      "type": "specialist",
+      "agentSlug": "video-animation"
+    }
+  },
+  {
+    "id": "va-002",
+    "category": "specialist",
+    "message": "Edit a product reel from my Premiere footage and add some After Effects polish.",
+    "expected": {
+      "type": "specialist",
+      "agentSlug": "video-animation"
+    }
+  },
+  {
+    "id": "wt-001",
+    "category": "specialist",
+    "message": "Ghostwrite a 1500-word essay on remote work culture; keep the tone warm and reflective.",
+    "expected": {
+      "type": "specialist",
+      "agentSlug": "writing-translation"
+    }
+  },
+  {
+    "id": "wt-002",
+    "category": "specialist",
+    "message": "Translate and localize this article into European Portuguese.",
+    "expected": {
+      "type": "specialist",
+      "agentSlug": "writing-translation"
+    }
+  },
+  {
+    "id": "ma-001",
+    "category": "specialist",
+    "message": "Compose a 30-second ambient instrumental score for a meditation podcast intro, including tempo and mix notes.",
+    "expected": {
+      "type": "specialist",
+      "agentSlug": "music-audio",
+      "note": "Reworded for Phase 8.1 patch: prior text used 'sound design direction' which made 'design' trigger the graphics-design domain alias and tripped convening soft-signal C."
+    }
+  },
+  {
+    "id": "ma-002",
+    "category": "specialist",
+    "message": "Mix and master this voice-over track for a podcast episode.",
+    "expected": {
+      "type": "specialist",
+      "agentSlug": "music-audio"
+    }
+  },
+  {
+    "id": "bus-001",
+    "category": "specialist",
+    "message": "Help me set the pricing and OKRs for our seed-stage SaaS.",
+    "expected": {
+      "type": "specialist",
+      "agentSlug": "business"
+    }
+  },
+  {
+    "id": "bus-002",
+    "category": "specialist",
+    "message": "Draft a fundraising narrative for our Series A pitch.",
+    "expected": {
+      "type": "specialist",
+      "agentSlug": "business"
+    }
+  },
+  {
+    "id": "fin-001",
+    "category": "specialist",
+    "message": "Build a 3-year cash flow forecast with debt and tax scenarios.",
+    "expected": {
+      "type": "specialist",
+      "agentSlug": "finance"
+    }
+  },
+  {
+    "id": "fin-002",
+    "category": "specialist",
+    "message": "What is a reasonable retirement investment mix at age 40 with moderate savings?",
+    "expected": {
+      "type": "specialist",
+      "agentSlug": "finance"
+    }
+  },
+  {
+    "id": "ai-001",
+    "category": "specialist",
+    "message": "RAG vs fine-tune for a 500-doc internal knowledge base — which and why?",
+    "expected": {
+      "type": "specialist",
+      "agentSlug": "ai-services"
+    }
+  },
+  {
+    "id": "ai-002",
+    "category": "specialist",
+    "message": "Build a RAG architecture for an internal policy knowledge base with embedding pipelines, reranking, and citation safeguards.",
+    "expected": {
+      "type": "specialist",
+      "agentSlug": "ai-services",
+      "note": "Reworded for Phase 8.1 patch: prior text led with 'Design an AI workflow' which named two domain aliases ('design' + 'ai') and tripped convening soft-signal C."
+    }
+  },
+  {
+    "id": "pg-001",
+    "category": "specialist",
+    "message": "Help me build a daily journaling habit and a morning self-improvement routine.",
+    "expected": {
+      "type": "specialist",
+      "agentSlug": "personal-growth"
+    }
+  },
+  {
+    "id": "pg-002",
+    "category": "specialist",
+    "message": "I want to learn a new hobby; what is a sustainable motivation routine for someone busy?",
+    "expected": {
+      "type": "specialist",
+      "agentSlug": "personal-growth"
+    }
+  },
+  {
+    "id": "con-001",
+    "category": "specialist",
+    "message": "Run a stakeholder workshop using MECE problem framing for our roadmap.",
+    "expected": {
+      "type": "specialist",
+      "agentSlug": "consulting"
+    }
+  },
+  {
+    "id": "con-002",
+    "category": "specialist",
+    "message": "Build an executive deck around a decision memo for the leadership group.",
+    "expected": {
+      "type": "specialist",
+      "agentSlug": "consulting"
+    }
+  },
+  {
+    "id": "data-001",
+    "category": "specialist",
+    "message": "Build an analytics dashboard SQL query for monthly active users.",
+    "expected": {
+      "type": "specialist",
+      "agentSlug": "data"
+    }
+  },
+  {
+    "id": "data-002",
+    "category": "specialist",
+    "message": "Run an A/B test power analysis with statistics: find the sample size needed to detect a 5% lift at 80% confidence.",
+    "expected": {
+      "type": "specialist",
+      "agentSlug": "data",
+      "note": "Reworded for Phase 8.1 patch: prior text started with 'Design an A/B test' which named two domain aliases ('design' + 'data' via 'data' analytics overlap) and tripped convening soft-signal C."
+    }
+  },
+  {
+    "id": "photo-001",
+    "category": "specialist",
+    "message": "Plan a portrait photo shoot with three-point lighting and a short lens kit.",
+    "expected": {
+      "type": "specialist",
+      "agentSlug": "photography"
+    }
+  },
+  {
+    "id": "photo-002",
+    "category": "specialist",
+    "message": "Set up RAW exposure and color grade for an outdoor product photo shoot.",
+    "expected": {
+      "type": "specialist",
+      "agentSlug": "photography"
+    }
+  },
+
+  {
+    "id": "overlap-lumi-vs-iris-001",
+    "category": "overlap",
+    "rule": "lumi-vs-iris (design vs photography)",
+    "message": "Create a logo and visual identity direction for a portrait photography studio.",
+    "expected": {
+      "type": "specialist",
+      "agentSlug": "graphics-design",
+      "note": "Phase 8.1 patch: rewritten so the lumi-vs-iris override deterministically picks Lumi (logo signal hits Lumi; no photo-shoot/portrait-shoot signal for Iris). Prior text named two domain aliases ('design' + 'photo') and tripped convening soft-signal C."
+    }
+  },
+  {
+    "id": "overlap-vera-vs-atlas-001",
+    "category": "overlap",
+    "rule": "vera-vs-atlas (business vs consulting)",
+    "message": "We need a strategy direction and an executive deck for our workshop next week.",
+    "expected": {
+      "type": "specialist",
+      "acceptableSlugs": ["business", "consulting"],
+      "note": "vera-vs-atlas override expected to pick Atlas via workshop+executive deck signals."
+    }
+  },
+  {
+    "id": "overlap-sage-vs-bit-001",
+    "category": "overlap",
+    "rule": "sage-vs-bit (AI services vs programming)",
+    "message": "Build an LLM-powered RAG agent that uses a vector DB; the language choice is open.",
+    "expected": {
+      "type": "specialist",
+      "acceptableSlugs": ["ai-services", "programming-tech"],
+      "note": "sage-vs-bit override expected to pick Sage via llm+rag+agent+vector db signals; bit signal not hit (no code/bug/refactor/devops)."
+    }
+  },
+  {
+    "id": "overlap-buzz-vs-lex-001",
+    "category": "overlap",
+    "rule": "buzz-vs-lex (marketing vs writing)",
+    "message": "Help me ghostwrite a campaign blog post that targets audience conversion with strong positioning.",
+    "expected": {
+      "type": "specialist",
+      "acceptableSlugs": ["digital-marketing", "writing-translation"],
+      "note": "Both buzz and lex signals hit; expected resolution via LLM tie-breaker or clarify, either pair member is acceptable."
+    }
+  },
+  {
+    "id": "overlap-echo-vs-reel-001",
+    "category": "overlap",
+    "rule": "echo-vs-reel (music/audio vs video/animation)",
+    "message": "What tempo, instrumentation, and mix direction should I use for a reflective product demo soundtrack?",
+    "expected": {
+      "type": "specialist",
+      "agentSlug": "music-audio",
+      "note": "Phase 8.1 patch: rewritten to disambiguate toward Echo (music-audio). Prior text said 'video reel ... sound design overlay' which named three domain aliases ('video' + 'sound' + 'design') and tripped convening soft-signal C."
+    }
+  },
+
+  {
+    "id": "convene-brand-launch-001",
+    "category": "convene",
+    "message": "Create a brand launch plan for a new AI finance app, covering design, marketing, and business angles.",
+    "expected": {
+      "type": "convene",
+      "convenedSlugs": ["graphics-design", "digital-marketing", "business"]
+    }
+  },
+  {
+    "id": "convene-ai-pitch-001",
+    "category": "convene",
+    "message": "Help me pitch an AI product to investors next week.",
+    "expected": {
+      "type": "convene",
+      "convenedSlugs": ["ai-services", "business", "writing-translation"]
+    }
+  },
+  {
+    "id": "convene-website-launch-001",
+    "category": "convene",
+    "message": "Build a marketing website and run a campaign to support the launch.",
+    "expected": {
+      "type": "convene",
+      "convenedSlugs": ["programming-tech", "graphics-design", "digital-marketing"]
+    }
+  },
+
+  {
+    "id": "ood-001",
+    "category": "nexus",
+    "message": "What is the capital of Mongolia and roughly how many people live there?",
+    "expected": {
+      "type": "nexus",
+      "acceptableTypes": ["nexus_fallback", "out_of_domain", "clarify"]
+    }
+  },
+  {
+    "id": "ood-002",
+    "category": "nexus",
+    "message": "Tell me a short joke about cats.",
+    "expected": {
+      "type": "nexus",
+      "acceptableTypes": ["nexus_fallback", "out_of_domain", "clarify"]
+    }
+  },
+  {
+    "id": "ood-003",
+    "category": "nexus",
+    "message": "What do you think about the philosophy of stoicism in modern life?",
+    "expected": {
+      "type": "nexus",
+      "acceptableTypes": ["nexus_fallback", "out_of_domain", "clarify"]
+    }
+  },
+
+  {
+    "id": "handoff-audio-001",
+    "category": "handoff",
+    "message": "I need Lumi to design a logo concept for a calm productivity app. Also include the short sonic logo / audio sting direction, but if audio belongs to another specialist, hand it off.",
+    "expected": {
+      "type": "handoff",
+      "initialAgentSlug": "graphics-design",
+      "handoffToSlug": "music-audio",
+      "handoffOptional": true,
+      "strictHandoffEnv": "CREATIVEDGE_STRICT_HANDOFF",
+      "note": "Deterministic half: initial route must be specialist -> graphics-design. Optional half: if done.handoff fires, it must be graphics-design -> music-audio with status completed. Missing done.handoff is a WARN (counted as PASS) in default mode because handoff emission depends on real LLM behavior; set CREATIVEDGE_STRICT_HANDOFF=1 to promote the WARN back to a hard FAIL for a deliberate strict pass."
+    }
+  }
+]
