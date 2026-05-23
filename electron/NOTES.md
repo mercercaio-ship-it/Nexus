@@ -226,7 +226,7 @@ Ops console → Update info card
   ├── App version            (from the running app)
   ├── Backend version        (from /ops/diagnostics; only shown when it differs)
   ├── Auto-update            (always "deferred" in this build)
-  ├── Releases page          (https://github.com/michelbr84/CreativEdge/releases)
+  ├── Releases page          (https://github.com/CreativEdgeSolutions/Nexus/releases)
   ├── [Check latest release] (one-shot GitHub public REST API call)
   └── [Open releases page ↗] (window.open → shell.openExternal)
 ```
@@ -237,7 +237,7 @@ Ops console → Update info card
 2. Click **Check latest release**. The UI shows a small badge:
    `Up to date`, `Release available`, or `Unable to compare`.
 3. Click **Open releases page ↗** to open
-   https://github.com/michelbr84/CreativEdge/releases in your default
+   https://github.com/CreativEdgeSolutions/Nexus/releases in your default
    browser.
 4. Download the `CreativEdge-Setup-<version>.exe` asset.
 5. Run the installer. Windows SmartScreen will warn that the publisher
@@ -299,7 +299,7 @@ regular browser tab) the helper in
 
 The allow-list is intentionally tiny (HTTPS-only; host +
 path-prefix). Today it covers exactly one entry: the GitHub
-Releases page for `michelbr84/CreativEdge`. Adding a new
+Releases page for `CreativEdgeSolutions/Nexus`. Adding a new
 external destination requires editing **both**
 `electron/main.mjs:EXTERNAL_URL_ALLOWLIST` and
 `frontend/src/config/release.ts:EXTERNAL_URL_ALLOWLIST` — the

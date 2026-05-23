@@ -92,7 +92,7 @@ First Windows desktop validation baseline. Phases 0 through 10 all
   for the initial baseline because the installer is unsigned and
   no `electron-updater` channel exists yet).
 - **Release page:**
-  <https://github.com/michelbr84/CreativEdge/releases/tag/v0.1.0>
+  <https://github.com/CreativEdgeSolutions/Nexus/releases/tag/v0.1.0>
 - **Assets attached:**
   - `CreativEdge-Setup-0.1.0.exe` — Windows x64 NSIS installer.
   - `CreativEdge-win-unpacked-v0.1.0.zip` — unpacked binary for

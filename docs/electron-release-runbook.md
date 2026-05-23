@@ -245,7 +245,7 @@ manually. Procedure:
 3. **Smoke-test the built `.exe`** per §3 above.
 
 4. **Create the GitHub release**:
-   - Go to https://github.com/michelbr84/CreativEdge/releases →
+   - Go to https://github.com/CreativEdgeSolutions/Nexus/releases →
      *Draft a new release*.
    - Tag: `v<version>` (e.g. `v0.1.1`) — leading `v` is required;
      the manual update-check helper in
@@ -281,7 +281,7 @@ manually. Procedure:
 The Ops console's Update info card has two affordances:
 
 - **Check latest release** — calls
-  `GET https://api.github.com/repos/michelbr84/CreativEdge/releases/latest`
+  `GET https://api.github.com/repos/CreativEdgeSolutions/Nexus/releases/latest`
   on user click only. No auth header, no User-Agent identifying
   the install, no background poll. Returns one of `ok` /
   `no-release` (404) / `rate-limited` (403) / `network-error` /
@@ -289,7 +289,7 @@ The Ops console's Update info card has two affordances:
   available` / `Unable to compare`) plus a friendly hint.
 
 - **Open releases page ↗** — opens
-  `https://github.com/michelbr84/CreativEdge/releases` in the
+  `https://github.com/CreativEdgeSolutions/Nexus/releases` in the
   user's OS default browser. Implementation path (Phase 9-D-B4):
 
   1. `frontend/src/config/release.ts:openExternalUrl()` is called.
@@ -389,7 +389,7 @@ npm --prefix backend-api rebuild better-sqlite3
 
 Symptom: clicking **Open releases page ↗** in Ops does nothing;
 the Electron stdout log shows `window.open denied for
-https://github.com/michelbr84/CreativEdge/releases`.
+https://github.com/CreativEdgeSolutions/Nexus/releases`.
 
 Cause: prior to Phase 9-D-B4, `setWindowOpenHandler` returned
 `{action:"deny"}` for every URL and `will-navigate` never fired.

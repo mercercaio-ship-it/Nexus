@@ -196,7 +196,7 @@ shapes.
 From a clean clone:
 
 ```powershell
-git clone https://github.com/michelbr84/CreativEdge.git
+git clone https://github.com/CreativEdgeSolutions/Nexus.git
 cd CreativEdge
 
 # Install backend + frontend deps + print post-install next-steps.
@@ -492,7 +492,7 @@ Responsibilities:
 ### 9.2 Preload bridge (`electron/preload.cjs`)
 
 Exposes exactly two surfaces on `window.ceBridge`:
-- **`openExternal(url)`** — Phase 9-D-B4 safe HTTPS allow-listed external-link opener (today's allow-list: `github.com` host + `/michelbr84/CreativEdge/releases` path-prefix). HTTPS-only. Double-validated (renderer + main process).
+- **`openExternal(url)`** — Phase 9-D-B4 safe HTTPS allow-listed external-link opener (today's allow-list: `github.com` host + `/CreativEdgeSolutions/Nexus/releases` path-prefix). HTTPS-only. Double-validated (renderer + main process).
 - **`getRuntimeConfig()`** — Phase 9-D-C3 sync runtime config read from `webPreferences.additionalArguments`. Shape: `{ backendBaseUrl: string|null, frontendBaseUrl: string|null, packaged: boolean }`.
 
 No node integration leaks to the renderer; only `contextBridge` + `ipcRenderer.invoke`.

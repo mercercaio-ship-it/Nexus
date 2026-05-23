@@ -54,7 +54,7 @@ its own folder, its own memory, and its own routing keywords.
 ### 1. Clone
 
 ```powershell
-git clone https://github.com/michelbr84/CreativEdge.git
+git clone https://github.com/CreativEdgeSolutions/Nexus.git
 cd CreativEdge
 ```
 
@@ -348,7 +348,7 @@ workflow.
 
 ## License + repository
 
-- Repository: <https://github.com/michelbr84/CreativEdge>
+- Repository: <https://github.com/CreativEdgeSolutions/Nexus>
 - License: [`LICENSE`](LICENSE) — proprietary / All Rights Reserved.
 - Contributing: [`CONTRIBUTING.md`](CONTRIBUTING.md).
 - Security policy: [`SECURITY.md`](SECURITY.md).
@@ -358,7 +358,7 @@ workflow.
   GitHub release draft checklist).
 - Release notes (drafts): [`docs/release-notes/`](docs/release-notes/).
 - Latest releases on GitHub:
-  <https://github.com/michelbr84/CreativEdge/releases>
+  <https://github.com/CreativEdgeSolutions/Nexus/releases>
   (v0.1.0 was published manually as a GitHub Pre-release on
   2026-05-23).
 

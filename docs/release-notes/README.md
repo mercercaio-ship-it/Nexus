@@ -11,7 +11,7 @@ copy-pasted, once the maintainer approves cutting a release.
   validation baseline (Phases 0 through 10 complete).
   **Published manually on 2026-05-23 as a GitHub Pre-release**
   (tag `v0.1.0`, target commit `ebc159e`). Release page:
-  <https://github.com/michelbr84/CreativEdge/releases/tag/v0.1.0>.
+  <https://github.com/CreativEdgeSolutions/Nexus/releases/tag/v0.1.0>.
   This file remains in the repository as the canonical source of
   the release description and the link target from
   [`../../CHANGELOG.md`](../../CHANGELOG.md).
@@ -50,7 +50,7 @@ The canonical end-to-end procedure lives in
 ## What this directory is NOT
 
 - ❌ Not a GitHub Release. Files here have no effect on what
-  appears at <https://github.com/michelbr84/CreativEdge/releases>
+  appears at <https://github.com/CreativEdgeSolutions/Nexus/releases>
   until the maintainer manually creates the release.
 - ❌ Not an artifact upload. Build outputs (the NSIS installer,
   the unpacked binary, debug YAMLs) live under

@@ -13,7 +13,7 @@ see [`docs/roadmap-history.md`](docs/roadmap-history.md).
 - **App status:** Windows desktop baseline validated.
 - **Release status:** v0.1.0 published as a GitHub Pre-release on
   2026-05-23. Tag `v0.1.0` → commit `ebc159e`. Release page:
-  <https://github.com/michelbr84/CreativEdge/releases/tag/v0.1.0>.
+  <https://github.com/CreativEdgeSolutions/Nexus/releases/tag/v0.1.0>.
 - **Current active phase:** Phase 11-C —
   *Roadmap hygiene + historical evidence split* — ⏳ Implemented
   2026-05-23 (review pending).
@@ -28,7 +28,7 @@ see [`docs/roadmap-history.md`](docs/roadmap-history.md).
 
 | Version | Status | Tag | Target commit | Date | Release page |
 |---|---|---|---|---|---|
-| **v0.1.0** | GitHub **Pre-release** | `v0.1.0` | `ebc159e` | 2026-05-23 | <https://github.com/michelbr84/CreativEdge/releases/tag/v0.1.0> |
+| **v0.1.0** | GitHub **Pre-release** | `v0.1.0` | `ebc159e` | 2026-05-23 | <https://github.com/CreativEdgeSolutions/Nexus/releases/tag/v0.1.0> |
 
 **v0.1.0 assets (uploaded manually by the maintainer):**
 

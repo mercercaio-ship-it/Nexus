@@ -519,7 +519,7 @@ four readiness blockers; same redacted-remote display.
 - **Backend version** — shown only when it differs from the
   app version (usually they match).
 - **Releases page** —
-  `https://github.com/michelbr84/CreativEdge/releases`.
+  `https://github.com/CreativEdgeSolutions/Nexus/releases`.
 - **Auto-update** — always `deferred` in this build (see
   [§11](#11-updates-and-releases) for why).
 - **Check latest release** — a click-triggered one-shot
@@ -759,7 +759,7 @@ or `Unable to compare`.
 
 ### 11.2 Open the releases page
 **Open releases page ↗** in the same card opens
-`https://github.com/michelbr84/CreativEdge/releases` in your
+`https://github.com/CreativEdgeSolutions/Nexus/releases` in your
 OS default browser via the safe preload bridge. The URL is
 allow-listed in both the renderer and the main process;
 any other URL would be rejected.

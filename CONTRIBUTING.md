@@ -52,7 +52,7 @@ canonical packaged-build acceptance evidence in
 ## Setup
 
 ```powershell
-git clone https://github.com/michelbr84/CreativEdge.git
+git clone https://github.com/CreativEdgeSolutions/Nexus.git
 cd CreativEdge
 
 npm run setup           # backend + frontend deps + post-install help
@@ -308,5 +308,5 @@ See [`LICENSE`](LICENSE).
 ## Questions
 
 For project-level questions, open a GitHub issue against
-<https://github.com/michelbr84/CreativEdge>. For security
+<https://github.com/CreativEdgeSolutions/Nexus>. For security
 vulnerabilities, follow [`SECURITY.md`](SECURITY.md).

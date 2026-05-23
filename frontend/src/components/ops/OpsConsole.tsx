@@ -23,7 +23,7 @@
 //   - Release/repository coordinates moved into
 //     `frontend/src/config/release.ts` (single source of truth).
 //   - Hardcoded URL replaced with the correct
-//     repo `michelbr84/CreativEdge` via the shared config.
+//     repo `CreativEdgeSolutions/Nexus` via the shared config.
 //   - "Check latest release" button added next to "Open releases page";
 //     calls the GitHub public REST API on user click only (no
 //     background fetch), handles 404 / 403 / network failures, and

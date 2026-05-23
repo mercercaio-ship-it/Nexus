@@ -12,7 +12,7 @@ blank_issues_enabled: false
 
 contact_links:
   - name: 🔒 Report a security vulnerability
-    url: https://github.com/michelbr84/CreativEdge/security/advisories/new
+    url: https://github.com/CreativEdgeSolutions/Nexus/security/advisories/new
     about: >-
       Do NOT file vulnerabilities in public issues. Use GitHub
       Private Vulnerability Reporting. See SECURITY.md for the
@@ -20,7 +20,7 @@ contact_links:
       include in a report.
 
   - name: 🛠️ Troubleshoot first
-    url: https://github.com/michelbr84/CreativEdge/blob/main/docs/troubleshooting.md
+    url: https://github.com/CreativEdgeSolutions/Nexus/blob/main/docs/troubleshooting.md
     about: >-
       26-section troubleshooting guide covering install failures,
       port collisions, NODE_MODULE_VERSION mismatch, release-link
@@ -28,21 +28,21 @@ contact_links:
       more. Most reports are resolved here.
 
   - name: 📦 Release readiness + Windows packaged validation
-    url: https://github.com/michelbr84/CreativEdge/blob/main/docs/release-readiness.md
+    url: https://github.com/CreativEdgeSolutions/Nexus/blob/main/docs/release-readiness.md
     about: >-
       Preflight checklist, build commands, the §3 Windows
       packaged-validation walkthrough, artifact rules, and the
       §5 GitHub release draft checklist.
 
   - name: 🤝 Contribute
-    url: https://github.com/michelbr84/CreativEdge/blob/main/CONTRIBUTING.md
+    url: https://github.com/CreativEdgeSolutions/Nexus/blob/main/CONTRIBUTING.md
     about: >-
       Contributor handbook — setup, build, validation
       expectations, commit conventions, privacy/security rules,
       AI-coding-agent protocol.
 
   - name: 🗺️ Phase roadmap
-    url: https://github.com/michelbr84/CreativEdge/blob/main/todo.md
+    url: https://github.com/CreativEdgeSolutions/Nexus/blob/main/todo.md
     about: >-
       Canonical state-of-the-world for "what's done" and "what's
       open" across every phase and sub-slice.

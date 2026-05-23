@@ -569,7 +569,7 @@ shows `window.open denied for …`.
 A healthy click produces:
 
 ```
-[electron-main] ipc openExternal succeeded for https://github.com/michelbr84/CreativEdge/releases
+[electron-main] ipc openExternal succeeded for https://github.com/CreativEdgeSolutions/Nexus/releases
 ```
 
 …and your OS default browser opens the GitHub releases page.
@@ -578,7 +578,7 @@ A healthy click produces:
 
 Today the allow-list is a **single entry**:
 - Host: `github.com`
-- Path prefix: `/michelbr84/CreativEdge/releases`
+- Path prefix: `/CreativEdgeSolutions/Nexus/releases`
 - Protocol: `https:` only
 
 Anything else is rejected on both renderer and main process.
@@ -628,7 +628,7 @@ release** shows an error badge / hint.
 The release check is **never** automatic, never background,
 never on a timer. It only fires when you click. It calls the
 GitHub public REST API once per click:
-`https://api.github.com/repos/michelbr84/CreativEdge/releases/latest`.
+`https://api.github.com/repos/CreativEdgeSolutions/Nexus/releases/latest`.
 
 No auth header is sent. No User-Agent identifying the
 installation is sent. No installer is downloaded. No silent

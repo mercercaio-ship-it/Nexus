@@ -124,7 +124,7 @@ const EXTERNAL_OPEN_IPC_CHANNEL = "ce:openExternal";
  * Each entry must satisfy: parsed URL has `protocol === "https:"`,
  * `host === entry.host`, and `pathname.startsWith(entry.pathPrefix)`.
  * Path prefixes intentionally cover the directory (so e.g.
- * `/michelbr84/CreativEdge/releases/tag/v0.1.0` is allowed) but the
+ * `/CreativEdgeSolutions/Nexus/releases/tag/v0.1.0` is allowed) but the
  * filter is still anchored to the repo path so unrelated GitHub URLs
  * cannot ride through this bridge.
  */
@@ -132,7 +132,7 @@ const EXTERNAL_URL_ALLOWLIST = [
   {
     label: "github-releases",
     host: "github.com",
-    pathPrefix: "/michelbr84/CreativEdge/releases",
+    pathPrefix: "/CreativEdgeSolutions/Nexus/releases",
   },
 ];
 

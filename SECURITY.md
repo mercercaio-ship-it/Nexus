@@ -31,7 +31,7 @@ Please do **not** open a public GitHub issue for security reports.
 Use one of the following channels instead, in order of preference:
 
 1. **GitHub Private Vulnerability Reporting** — if enabled on
-   <https://github.com/michelbr84/CreativEdge>, use the "Report a
+   <https://github.com/CreativEdgeSolutions/Nexus>, use the "Report a
    vulnerability" button under the Security tab. This is the
    preferred path because it preserves an auditable conversation
    history.

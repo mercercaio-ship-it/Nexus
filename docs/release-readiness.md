@@ -170,7 +170,7 @@ acceptance walkthrough.
 
 - [ ] Click **Open releases page** in Ops console → Update info.
       The default OS browser opens
-      <https://github.com/michelbr84/CreativEdge/releases> via the
+      <https://github.com/CreativEdgeSolutions/Nexus/releases> via the
       Phase 9-D-B4 preload bridge.
 
 ### 3.7 Backup readiness (if configured)

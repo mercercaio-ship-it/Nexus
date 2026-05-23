@@ -14,7 +14,7 @@
 // path — the deny handler fires synchronously and rejects the URL
 // before `will-navigate` (the fallback that calls `shell.openExternal`)
 // ever sees it. The Phase 9-D-B3 walkthrough surfaced exactly that as
-// `window.open denied for https://github.com/michelbr84/CreativEdge/releases`.
+// `window.open denied for https://github.com/CreativEdgeSolutions/Nexus/releases`.
 //
 // This preload bridge fixes the bug in the most security-conservative
 // way: instead of relaxing the deny handler, expose an explicit IPC
