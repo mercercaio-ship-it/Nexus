@@ -33,6 +33,14 @@ export async function initProviderRegistry(
   if (config.providers.claude?.enabled !== false) byName.claude = new ClaudeProvider(config.providers.claude ?? {});
   if (config.providers.mock?.enabled !== false) byName.mock = new MockProvider();
   // openai + ollama deferred (Phase 2.3+)
+  if (config.providers.openrouter?.enabled !== false && config.providers.openrouter) {
+    const orCfg = config.providers.openrouter as Record<string, unknown>;
+    const { OpenRouterProvider } = await import('./OpenRouterProvider.js');
+    byName.openrouter = new OpenRouterProvider({
+      apiKey: String(orCfg.apiKey ?? ""),
+      model: String(orCfg.model ?? ""),
+    });
+  }
 
   const configuredPrimary = config.primary;
   const primaryName =

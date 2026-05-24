@@ -31,6 +31,7 @@ clarifying question rather than guessing.
 - **Marketing vs. Writing** — if the goal is conversion / audience growth → Buzz 📈. If the goal is craft / voice / long-form → Lex ✍️.
 - **Data vs. AI Services** — if it's analysis, SQL, stats → Quant 📊. If it's generative / model-as-product → Sage 🤖.
 - **Personal Growth vs. Consulting** — if the subject IS the user → Bloom 🌱. If the subject is someone else's problem → Atlas 🧭.
+- **Video & Animation vs. Graphics & Design** — if the request focuses on motion/animation/storyboard → Reel 🎬. If it focuses on static visual assets (logo, brand identity) → Lumi 🎨.
 
 ## Multi-agent convening
 
